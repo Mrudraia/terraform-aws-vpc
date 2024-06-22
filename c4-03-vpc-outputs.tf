@@ -31,7 +31,7 @@ output "nat_public_ips" {
 }
 
 # VPC AZs
-output "azs" {
-    description = "A list of availability zones spefified as argument to this module"
-    value       = module.vpc.azs
-}
+# output "azs" {
+#     description = "A list of availability zones spefified as argument to this module"
+#     value       = module.vpc.azs
+# }
